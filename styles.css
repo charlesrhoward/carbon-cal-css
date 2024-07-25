@@ -1,0 +1,91 @@
+/* IBM Carbon-inspired Calendar CSS */
+
+:root {
+    --carbon-blue-60: #0f62fe;
+    --carbon-gray-10: #f4f4f4;
+    --carbon-gray-20: #e0e0e0;
+    --carbon-gray-70: #525252;
+    --carbon-gray-100: #161616;
+    --carbon-white: #ffffff;
+    --carbon-font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  .toastui-calendar-layout {
+    font-family: var(--carbon-font-family);
+    color: var(--carbon-gray-100);
+    background-color: var(--carbon-white);
+  }
+  
+  .toastui-calendar-day-name-item {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--carbon-gray-70);
+  }
+  
+  .toastui-calendar-grid-cell-date {
+    font-size: 0.875rem;
+    color: var(--carbon-gray-100);
+  }
+  
+  .toastui-calendar-grid-cell-date
+    .toastui-calendar-weekday-grid-date.toastui-calendar-weekday-grid-date-decorator {
+    background-color: var(--carbon-blue-60);
+    color: var(--carbon-white);
+    border-radius: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+  }
+  
+  .toastui-calendar-weekday-event {
+    border-radius: 0;
+    font-size: 0.75rem;
+  }
+  
+  .toastui-calendar-weekend {
+    background-color: var(--carbon-gray-10);
+  }
+  
+  .toastui-calendar-today {
+    background-color: #edf5ff;
+  }
+  
+  .toastui-calendar-gridline {
+    border-color: var(--carbon-gray-20);
+  }
+  
+  .toastui-calendar-day-names {
+    border-bottom: 1px solid var(--carbon-gray-20);
+  }
+  
+  .toastui-calendar-popup-container {
+    font-family: var(--carbon-font-family);
+    border-radius: 0;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .toastui-calendar-popup-section-item {
+    border-radius: 0;
+  }
+  
+  .toastui-calendar-popup-button {
+    border-radius: 0;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+  
+  .toastui-calendar-popup-button.toastui-calendar-popup-confirm {
+    background-color: var(--carbon-blue-60);
+  }
+  
+  .toastui-calendar-dropdown-menu {
+    border-radius: 0;
+  }
+  
+  .toastui-calendar-icon {
+    filter: invert(20%) sepia(10%) saturate(2076%) hue-rotate(180deg)
+      brightness(95%) contrast(86%);
+  }
+  
+  /* Add more specific styles as needed */
+  
